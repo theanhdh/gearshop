@@ -8,8 +8,6 @@ package gearshop.ui;
 import gearshop.Callbacks;
 import java.awt.Insets;
 import javax.swing.UIManager;
-import org.pushingpixels.substance.api.skin.SubstanceBusinessLookAndFeel;
-import org.pushingpixels.substance.api.skin.SubstanceGeminiLookAndFeel;
 
 /**
  *
