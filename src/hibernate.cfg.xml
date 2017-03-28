@@ -45,7 +45,7 @@ Contributor(s):
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/gearshop?zeroDateTimeBehavior=convertToNull</property>
     <property name="hibernate.connection.username">root</property>
-    <property name="hibernate.connection.password">admin</property>
+    <property name="hibernate.connection.password">p@ssw0rd123</property>
     <mapping class="gearshop.domain.UnitHist"/>
     <mapping class="gearshop.domain.Builder"/>
     <mapping class="gearshop.domain.Customer"/>

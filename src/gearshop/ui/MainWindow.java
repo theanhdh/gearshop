@@ -135,9 +135,10 @@ public class MainWindow extends javax.swing.JFrame {
         if (tabPanel.getSelectedIndex() != this.currentTabIndex) { 
             this.currentTabIndex = tabPanel.getSelectedIndex();
             switch(tabPanel.getSelectedIndex()) {
-                case 2: Callbacks.PRODUCT_PRELOAD_CALLBACK.get();
-                case 3: Callbacks.UNITS_PREDLOAD_CALLBACK.get();
-                case 6: Callbacks.BUILDERS_PRELOAD_CALLBACK.get();
+                case 1: Callbacks.CUSTOMERS_PRELOAD_CALLBACK.get(); break;
+                case 2: Callbacks.PRODUCT_PRELOAD_CALLBACK.get(); break;
+                case 3: Callbacks.UNITS_PREDLOAD_CALLBACK.get(); break;
+                case 6: Callbacks.BUILDERS_PRELOAD_CALLBACK.get(); break;
             }
         }
         

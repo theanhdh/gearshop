@@ -16,4 +16,5 @@ public class Callbacks {
     public static Supplier PRODUCT_PRELOAD_CALLBACK = null;
     public static Supplier UNITS_PREDLOAD_CALLBACK = null;
     public static Supplier BUILDERS_PRELOAD_CALLBACK = null;
+    public static Supplier CUSTOMERS_PRELOAD_CALLBACK = null;
 }
